@@ -1,11 +1,12 @@
 package br.org.serratec.exerciciospp4;
 
 import java.util.Scanner;
-
 public class Metodos {
-    
+    Fixo vendedor1 = new Fixo("Joana", "190.200.763-24", 1300.0, 0.05, 0.);
+    Fixo vendedor2 = new Fixo("Maria", "334.214.793-41",1300.0, 0.03, 0.);
+
     public void fecharPrograma() {
-        System.out.println("\nDeseja fechar o programa: \n1 - Sim \n2 - Não)");
+        System.out.println("\nDeseja fechar o programa: \n1 - Sim \n2 - Não");
         Scanner sc = new Scanner(System.in);
         int decisao = sc.nextInt();
 
@@ -21,14 +22,13 @@ public class Metodos {
     }
 
     public void exibirRelatorio() {
-        System.out.println("123");
+        System.out.println("\nNome: " + vendedor1.getNome()+ "\nSalário Bruto: " + vendedor1.getSalarioBruto());
+        System.out.println("\nNome: " + vendedor2.getNome()+ "\nSalário Bruto: " + vendedor2.getSalarioBruto());
     }
 
     public void escolherVendedor() {
         double x, y;
-        Fixo vendedor1 = new Fixo("Joana", "190.200.763-24", 1300.0, 0.05, 0.);
-        Fixo vendedor2 = new Fixo("Maria", "334.214.793-41",1300.0, 0.03, 0.);
-
+    
         Scanner sc = new Scanner(System.in);
         System.out.println("\nEscolha o vendedor:");
         System.out.println("1 -"+ vendedor1.getNome());
@@ -40,14 +40,15 @@ public class Metodos {
                 System.out.println("\nDigite o valor da venda: \n");
                 x = sc.nextDouble();
                 vendedor1.setValorVenda(x);
-                //+calcularSalario();
+                vendedor1.calcularSalario();
+                //vendedor1.getSalarioBruto();
                 fecharPrograma(); 
             break;
             case 2:
                 System.out.println("\nDigite o valor da venda: \n");
                 y = sc.nextDouble();
                 vendedor2.setValorVenda(y);
-                //calcularSalario();
+                //vendedor2.getSalarioBruto();
                 fecharPrograma(); 
             break;
             default:
