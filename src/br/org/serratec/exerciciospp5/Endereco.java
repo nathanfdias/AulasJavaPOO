@@ -17,7 +17,7 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return rua + " " + bairro + " " + cep + " " + cidade +  " " + estado;
+        return rua + " " + bairro + " " + cep + " " + cidade.getCidade() +  " " + estado.getEstado();
     }
     
     public Estado getEstado() {
