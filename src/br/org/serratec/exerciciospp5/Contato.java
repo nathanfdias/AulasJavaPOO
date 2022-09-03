@@ -2,8 +2,8 @@ package br.org.serratec.exerciciospp5;
 
 public class Contato {
     private String nome;
-    Telefone[] telefones;
-    Endereco endereco;
+    private Telefone[] telefones;
+    private Endereco endereco;
 
     public Contato(String nome, Telefone[] telefones, Endereco endereco) {
         this.nome = nome;
