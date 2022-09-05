@@ -4,9 +4,8 @@ public class Atleta implements Olimpiadas{
     protected String nome;
     protected double peso;
     protected String modalidade;
-    protected int totalParticipantes;
+    int totalParticipantes;
     
-
     protected String result; 
 
     public Atleta(String nome, double peso) {
@@ -19,9 +18,6 @@ public class Atleta implements Olimpiadas{
         return "\nNome: " + nome + "\nPeso: " + peso;
     }
 
-    public void setTotalParticipantes(int totalParticipantes) {
-        this.totalParticipantes += totalParticipantes; 
-    }
     public void setModalidade(String modalidade) {
         this.modalidade = modalidade;
     }
@@ -46,10 +42,18 @@ public class Atleta implements Olimpiadas{
     @Override
     public String verificaSituacao() {
         if (peso > 90 || peso > 60 && peso < 90) {
-            //setTotalParticipantes(1);
             return result =  "Participará";
+            //return totalParticipantes = totalParticipantes + 1;
         } else {
             return result =  "Não Participará";
         }
+    }
+
+    @Override
+    public int totalParticipantes() {
+        if(result.equals("Participará")) {
+            return 1;
+        }
+        return 0;
     }
 }
