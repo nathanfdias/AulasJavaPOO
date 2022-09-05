@@ -24,6 +24,6 @@ public class Teste {
         System.out.println("\nO atleta: " + a1.getNome() +"-"+ a1.getResult());
         System.out.println("O atleta: " + a2.getNome() +"-"+ a2.getResult());
         System.out.println("O atleta: " + a3.getNome() +"-"+ a3.getResult());
-        System.out.println(to.getTotal());
+        System.out.println("\nAtletas aptos para competir: " + to.getTotal());
     }
 }
