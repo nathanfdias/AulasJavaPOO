@@ -1,0 +1,434 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo001",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula1.Exemplo001",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo002",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula1.Exemplo002",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo003",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula1.Exemplo003",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula2Part1",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.Aula2Part1",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula2Part2",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.Aula2Part2",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula2Part3",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.Aula2Part3",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula2Part4",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.Aula2Part4",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula2Part5",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.Aula2Part5",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClasseAluno2",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.ClasseAluno2",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContaDados",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.ContaDados",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaDados",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.EntradaDados",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaDados2",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.EntradaDados2",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaDados3",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.EntradaDados3",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exec001",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.Exec001",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exec002",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula2.Exec002",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteEscopoVariavel",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula3.TesteEscopoVariavel",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteMedico",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula3.TesteMedico",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestePessoa",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula3.TestePessoa",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteProduto",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula3.TesteProduto",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteVeiculo",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula3.TesteVeiculo",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteEmpregado",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula4.TesteEmpregado",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteFuncionario",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula4.TesteFuncionario",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteMaratona",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula4.TesteMaratona",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteVeiculo(1)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula4.TesteVeiculo",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteSaude",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula5.TesteSaude",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteImovel",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula5part2.TesteImovel",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula5part3.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteLuta",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula5part4.TesteLuta",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(1)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula6.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(2)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula6part2.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteConta",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula6part3.TesteConta",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(3)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula6part4.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(4)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula7.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteTV",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula7part2.TesteTV",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteCurso",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula7part3.TesteCurso",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestePessoa(1)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula7part4.TestePessoa",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestePedido",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula7part5.TestePedido",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo001(1)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula8.Exemplo001",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo002(1)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula8.Exemplo002",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch VetorEmpregado",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula8.VetorEmpregado",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploEmpregado",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula8part2.ExemploEmpregado",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploListas",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula8part2.ExemploListas",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploListasArrays",
+            "request": "launch",
+            "mainClass": "br.org.serratec.aula8part2.ExemploListasArrays",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exec01",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp1.Exec01",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exec02",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp1.Exec02",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exec03",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp1.Exec03",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exec04",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp1.Exec04",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exec05",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp1.Exec05",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteCalculadora",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp2.TesteCalculadora",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteFuncionario(1)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp2.TesteFuncionario",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteProduto(1)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp2.TesteProduto",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteVendedor",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp4.TesteVendedor",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(5)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp5.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(6)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp6.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(7)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp6part2.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(8)",
+            "request": "launch",
+            "mainClass": "br.org.serratec.exerciciospp7part2.Teste",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bank",
+            "request": "launch",
+            "mainClass": "br.org.serratec.treino.Bank",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Conversor",
+            "request": "launch",
+            "mainClass": "br.org.serratec.treino.Conversor",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SomaSimples",
+            "request": "launch",
+            "mainClass": "br.org.serratec.treino.SomaSimples",
+            "projectName": "AulasJavaPOO_7766d21c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAdicionarRemover",
+            "request": "launch",
+            "mainClass": "br.org.serratec.treino.TestAdicionarRemover",
+            "projectName": "AulasJavaPOO_7766d21c"
+        }
+    ]
+}
