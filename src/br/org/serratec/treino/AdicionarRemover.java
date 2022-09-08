@@ -15,6 +15,6 @@ public class AdicionarRemover {
             default:
                 break;
         }
-        return result;      
+        return result;    //test  
     } 
 }
