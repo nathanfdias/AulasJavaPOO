@@ -6,6 +6,6 @@ public class Exec002 {
         int num2 = 11;
 
         String resposta = num1 > num2 ? "Num1 é o Maior" : "Num2 é o Maior";
-        System.out.println(resposta);
+        System.out.println(resposta);//x
     }
 }
