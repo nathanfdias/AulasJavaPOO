@@ -1,0 +1,61 @@
+Java = Portabilidade, POO, tipagem forte, Segurança, Alta Performance
+	Portabilidade atingida por bytecodes: código que o programador consegue manipular
+	JDK: Java Developer’s Kit, conjunto de ferramentas para desenvolvimento;
+	JRE: Java Runtime Environment, ambiente de interpretação e execução.
+
+Path: Variável de ambiente de um sistema, que fornece a uma aplicação uma lista de pastas com arquivos executáveis.
+Java exige ter pelo menos uma classe que contenha um método chamado main(), o qual contém o primeiro código a ser executado.
+	O método main() é public o que quer dizer que ele é visível globalmente, void porque não tem retorno,
+static o que significa que não precisamos criar objetos e também recebe um array de objetos do tipo String.	
+
+Variáveis podem guardar dados de tipos numéricos, textos, booleanos e referências de objetos.
+	int, double, string...
+	Variáveis de instância/atributos: São definidas dentro de um classe, inicializadas quando a classe é instanciada.
+Variável primitiva: Armazena um valor do seu tipo que foi declarado. Ex: int = 4 bytes
+
+Encapsular: Isolar, separar em partes um programa, além de esconder como funcionam os métodos, protegendo assim
+o acesso direto aos atributos e métodos de uma classe.
+	Modificadores de acesso: Getters e Setters; Facilita checar valores inválidos, modificação e a implementação de correções.
+	Manipuladores: Get e Set;
+
+Construtor: Para os construtores são passados argumentos que são obrigatórios na criação do objeto.
+	OverLoad: SobreCarga de construtor.
+
+Herança: "Gerente é um funcionário especial", herda de Funcionário; EXTENDS.
+	Generalização: indica que uma classe mais geral, a superclasse, tem atributos, operações e associações comuns.
+	Especialização: Criação de classes específicas a partir de uma genérica para representar atributos e métodos que são distintos.
+	Associação: É um relacionamento que descreve o vínculo entre duas classes.
+	Composição: É uma forma especial de associação utilizada para mostrar que um tipo de objeto é composto.
+	Agregação: Existência do Objeto-Parte faz sentido, mesmo não existindo o Objeto-Todo. Time -> Atleta.
+	SuperClasse: Funcionario - SubClasse: Assistente/Balconista/Gerente
+
+	Overrinding: Caso o método da superclasse não atenda a subclasse, existe a possibilidade de alterá-lo.
+
+Métodos Abstratos(Abstract): Métodos Definidos devem obrigatoriamente ser implementados em uma classe concreta ou em suas classes filhas.
+
+Interface: Recurso que define ações que devem ser obrigatoriamente executadas, Extends.
+
+Polimorfismo: Empresa e Pessoa implementam a interface Tributos. Guardamos a referência do objeto Empresa ou Pessoa; variável do tipo Tributos.
+
+Classe final: Um método com final não pode ser sobrescrito pelas classes filhas. Um atributo com final não pode ser modificado.
+	Atributo final e construtor: O valor para atributo constante pode ser definido em um construtor.
+
+Enum: Um enum é uma estrutura enumerada em conjuntos de constantes organizados em ordem de declaração. "REFRI,SUCO,AGUA".
+
+Arrays: É um objeto que pode armazenar diversos valores de um determinado tipo. Pos[0,1,2...].
+	Desvantagens: Remover gera espaço vazio, adicionar necessita permear todo array para encontrar vazio.
+
+Lista: Coleção que permite elementos duplicados e mantém uma ordenação específica entre os elementos.
+	Podemos criar uma lista de outra forma utilizando o método estático asList da classe Arrays. Tamanho fixo.
+	As interfaces List e Set possuem o método of para criar listas imutáveis.
+
+VarArgs: Quando temos um método que não sabemos ao certo quantos parâmetros serão passados, podemos passar uma lista.
+	porque ao invés de criar um array ou lista e colocar os valores dentro dele para depois chamar o método, o mesmo pode
+	ser chamado diretamente passando os vários valores e os parâmetros enviados são automaticamente adicionados em um array do mesmo
+	tipo do varargs.
+
+Generics: Restringe a lista a um determinado tipo de objeto.
+
+Set: Não permite elementos duplicados.
+	HashSet – Através de um mecanismo interno reduz o elemento a um número, e com base nele, realiza uma pesquisa.
+	TreeSet– Preserva a ordem natural dos elementos, porém ocorre uma perda de performance na inserção e deleção TreeSet.
