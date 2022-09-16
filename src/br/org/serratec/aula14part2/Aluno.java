@@ -1,6 +1,6 @@
 package br.org.serratec.aula14part2;
 
-public class Aluno {
+public class Aluno implements Comparable<Aluno>{
     private String nome;
     private String email;
     private Integer idade;
@@ -23,6 +23,11 @@ public class Aluno {
     }
     public Integer getIdade() {
         return idade;
+    }
+
+    @Override
+    public int compareTo(Aluno o) {
+        return o.getIdade() - idade;
     }
 
 
